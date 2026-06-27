@@ -1,0 +1,19 @@
+# Ignore environment files
+dev.env
+*.env
+
+# Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+.mypy_cache/
+
+# Node.js-related files
+node_modules/
+dist/
+
+# Docker-related files
+*.log
+docker-compose.override.yml
